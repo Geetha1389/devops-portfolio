@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,6 +68,11 @@
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
+            margin: 5px;
+        }
+
+        .button:hover {
+            opacity: 0.85;
         }
 
         section {
@@ -128,11 +134,30 @@
             text-align: center;
         }
 
+        .contact a {
+            color: #0284c7;
+        }
+
         footer {
             background: #0f172a;
             color: white;
             text-align: center;
             padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+
+            .hero h2 {
+                font-size: 32px;
+            }
         }
     </style>
 </head>
@@ -157,7 +182,15 @@
         AWS | Kubernetes | Docker | Jenkins | Terraform | Ansible
     </p>
 
-    <a href="#projects" class="button">View My Projects</a>
+    <a href="#projects" class="button">
+        🚀 View My Projects
+    </a>
+
+    <a href="Geetha_K_DevOps_Resume.pdf"
+       class="button"
+       target="_blank">
+        📄 Download Resume
+    </a>
 </section>
 
 <section id="about">
@@ -170,6 +203,8 @@
             Git, Prometheus and Grafana.
         </p>
 
+        <br>
+
         <p>
             I work on CI/CD automation, cloud infrastructure,
             containerization, Kubernetes deployments and monitoring.
@@ -181,24 +216,29 @@
     <h2>Technical Skills</h2>
 
     <div class="skills">
+
         <div class="skill">AWS</div>
         <div class="skill">EC2</div>
         <div class="skill">S3</div>
         <div class="skill">IAM</div>
         <div class="skill">EKS</div>
+
         <div class="skill">Docker</div>
         <div class="skill">Kubernetes</div>
         <div class="skill">Jenkins</div>
         <div class="skill">Terraform</div>
         <div class="skill">Ansible</div>
+
         <div class="skill">Git</div>
         <div class="skill">GitHub</div>
         <div class="skill">Helm</div>
         <div class="skill">Argo CD</div>
+
         <div class="skill">Prometheus</div>
         <div class="skill">Grafana</div>
         <div class="skill">Linux</div>
         <div class="skill">Bash</div>
+
     </div>
 </section>
 
@@ -208,7 +248,8 @@
     <div class="projects">
 
         <div class="project">
-            <h3>Real-Time DevOps Project</h3>
+
+            <h3>🚀 Real-Time DevOps Project</h3>
 
             <p>
                 End-to-end DevOps project using AWS, Docker,
@@ -219,12 +260,14 @@
 
             <a href="https://github.com/Geetha1389/real-time-devops-project"
                target="_blank">
-                View on GitHub →
+                View Project on GitHub →
             </a>
+
         </div>
 
         <div class="project">
-            <h3>CI/CD Pipeline</h3>
+
+            <h3>🔄 CI/CD Pipeline</h3>
 
             <p>
                 Automated CI/CD pipeline using Jenkins,
@@ -237,10 +280,12 @@
                target="_blank">
                 View GitHub →
             </a>
+
         </div>
 
         <div class="project">
-            <h3>AWS Infrastructure with Terraform</h3>
+
+            <h3>☁️ AWS Infrastructure with Terraform</h3>
 
             <p>
                 Infrastructure automation using Terraform,
@@ -253,21 +298,27 @@
                target="_blank">
                 View GitHub →
             </a>
+
         </div>
 
     </div>
 </section>
 
 <section id="contact">
+
     <h2>Contact</h2>
 
     <div class="contact">
+
         <p>
             GitHub:
-            <a href="https://github.com/Geetha1389" target="_blank">
+            <a href="https://github.com/Geetha1389"
+               target="_blank">
                 github.com/Geetha1389
             </a>
         </p>
+
+        <br>
 
         <p>
             Email: Add your professional email here
@@ -275,11 +326,20 @@
 
         <br>
 
-        <a href="https://github.com/Geetha1389" target="_blank"
-           class="button">
-            Visit My GitHub
+        <a href="Geetha_K_DevOps_Resume.pdf"
+           class="button"
+           target="_blank">
+            📄 View Resume
         </a>
+
+        <a href="https://github.com/Geetha1389"
+           class="button"
+           target="_blank">
+            💻 Visit My GitHub
+        </a>
+
     </div>
+
 </section>
 
 <footer>
@@ -288,3 +348,4 @@
 
 </body>
 </html>
+```

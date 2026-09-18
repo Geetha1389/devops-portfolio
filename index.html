@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geetha | DevOps Engineer</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 25px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            background: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #38bdf8;
+            color: #0f172a;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 10%;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #0f172a;
+        }
+
+        .about {
+            text-align: center;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .skill {
+            background: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            font-weight: bold;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .project h3 {
+            color: #0284c7;
+            margin-bottom: 10px;
+        }
+
+        .project a {
+            color: #0284c7;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Geetha</h1>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>DevOps Engineer</h2>
+
+    <p>
+        AWS | Kubernetes | Docker | Jenkins | Terraform | Ansible
+    </p>
+
+    <a href="#projects" class="button">View My Projects</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="about">
+        <p>
+            I am a DevOps Engineer with hands-on experience in AWS,
+            Kubernetes, Docker, Jenkins, Terraform, Ansible,
+            Git, Prometheus and Grafana.
+        </p>
+
+        <p>
+            I work on CI/CD automation, cloud infrastructure,
+            containerization, Kubernetes deployments and monitoring.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="skills">
+        <div class="skill">AWS</div>
+        <div class="skill">EC2</div>
+        <div class="skill">S3</div>
+        <div class="skill">IAM</div>
+        <div class="skill">EKS</div>
+        <div class="skill">Docker</div>
+        <div class="skill">Kubernetes</div>
+        <div class="skill">Jenkins</div>
+        <div class="skill">Terraform</div>
+        <div class="skill">Ansible</div>
+        <div class="skill">Git</div>
+        <div class="skill">GitHub</div>
+        <div class="skill">Helm</div>
+        <div class="skill">Argo CD</div>
+        <div class="skill">Prometheus</div>
+        <div class="skill">Grafana</div>
+        <div class="skill">Linux</div>
+        <div class="skill">Bash</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>DevOps Projects</h2>
+
+    <div class="projects">
+
+        <div class="project">
+            <h3>Real-Time DevOps Project</h3>
+
+            <p>
+                End-to-end DevOps project using AWS, Docker,
+                Kubernetes, Jenkins, Terraform and monitoring tools.
+            </p>
+
+            <br>
+
+            <a href="https://github.com/Geetha1389/real-time-devops-project"
+               target="_blank">
+                View on GitHub →
+            </a>
+        </div>
+
+        <div class="project">
+            <h3>CI/CD Pipeline</h3>
+
+            <p>
+                Automated CI/CD pipeline using Jenkins,
+                Maven, Docker and Kubernetes for application deployment.
+            </p>
+
+            <br>
+
+            <a href="https://github.com/Geetha1389"
+               target="_blank">
+                View GitHub →
+            </a>
+        </div>
+
+        <div class="project">
+            <h3>AWS Infrastructure with Terraform</h3>
+
+            <p>
+                Infrastructure automation using Terraform,
+                including VPC, subnets, route tables and AWS resources.
+            </p>
+
+            <br>
+
+            <a href="https://github.com/Geetha1389"
+               target="_blank">
+                View GitHub →
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <div class="contact">
+        <p>
+            GitHub:
+            <a href="https://github.com/Geetha1389" target="_blank">
+                github.com/Geetha1389
+            </a>
+        </p>
+
+        <p>
+            Email: Add your professional email here
+        </p>
+
+        <br>
+
+        <a href="https://github.com/Geetha1389" target="_blank"
+           class="button">
+            Visit My GitHub
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Geetha | DevOps Engineer</p>
+</footer>
+
+</body>
+</html>
